@@ -1,0 +1,17 @@
+logging:
+  level:
+    org:
+      springframework:
+        cloud: debug
+        web: debug
+server:
+  port: 8888
+spring:
+  application:
+    name: mssc-brewery-config
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true
+          uri: https://github.com/springframeworkguru/mssc-example-config-repo
