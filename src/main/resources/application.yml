@@ -14,4 +14,7 @@ spring:
       server:
         git:
           clone-on-start: true
-          uri: https://github.com/springframeworkguru/mssc-example-config-repo
+          uri: https://github.com/fykidwai/mssc-brewery-config-repo
+          default-label: main
+          search-paths:
+          - '{application}'
