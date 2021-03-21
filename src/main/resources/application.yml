@@ -18,7 +18,10 @@ spring:
           default-label: main
           search-paths:
           - '{application}'
-
+  security:
+    user:
+      name: MyUserName
+      password: MySecretPassword
 # Should be env property
 encrypt:
   key: MySuperSecretKey
